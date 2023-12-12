@@ -48,13 +48,13 @@ li {
 }
 
 .li-hover:hover {
-  background-color: #ffea61;
+  background-color: #c3be21;
   columns: #000105;
 }
 
 .li-selected {
   color: #000105;
-  background-color: #fefd93;
+  background-color: #c3be21;
 }
 
 .container {

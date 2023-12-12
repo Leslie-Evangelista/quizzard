@@ -54,7 +54,7 @@ const Page = () => {
 
   return (
     <div className='container'>
-      <h1>Quizzard</h1>
+      <h1>🧙Quizzard</h1>
       <div>
         <h2>
           Question: {activeQuestion + 1}
