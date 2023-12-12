@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { quiz } from '../data.js';
 
-const page = () => {
+const Page = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState('');
   const [checked, setChecked] = useState(false);
@@ -23,10 +23,8 @@ const page = () => {
     setSelectedAnswerIndex(idx);
     if (answer === correctAnswer) {
       setSelectedAnswer(true);
-      console.log('true');
     } else {
       setSelectedAnswer(false);
-      console.log('false');
     }
   };
 
@@ -37,7 +35,7 @@ const page = () => {
       selectedAnswer
         ? {
             ...prev,
-            score: prev.score + 5,
+            score: prev.score + 25 / questions.length, // Adjust the scoring logic
             correctAnswers: prev.correctAnswers + 1,
           }
         : {
@@ -113,4 +111,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
