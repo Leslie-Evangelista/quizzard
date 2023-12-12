@@ -35,7 +35,7 @@ const Page = () => {
       selectedAnswer
         ? {
             ...prev,
-            score: prev.score + 25 / questions.length, // Adjust the scoring logic
+            score: prev.score + 25 / questions.length,
             correctAnswers: prev.correctAnswers + 1,
           }
         : {
