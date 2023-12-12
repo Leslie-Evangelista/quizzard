@@ -6,7 +6,7 @@
 
 html, body {
   overflow-x: hidden;
-  background-color: #000925;
+  background-color: #0a0227;
 }
 
 main {
@@ -19,7 +19,7 @@ h1, h2 {
 
 h3 {
   padding-bottom: 2rem;
-  color: #000105;
+  color: #eee;
   font-size: 1.8rem;
 }
 
@@ -30,12 +30,12 @@ button {
   font-size: 1rem;
   border-radius: 4px;
   cursor: pointer;
-  background-color: #808080;
+  background-color: #77DD77;
   color: #f8f8f8;
 }
 
 .btn-disabled {
-  background-color: lightgray;
+  background-color: lightcoral;
 }
 
 li {
@@ -43,18 +43,18 @@ li {
   cursor: pointer;
   margin: 9px 0;
   padding: 16px 8px;
-  color: #000105;
+  color: #eee;
   border: 1px solid lightgray;
 }
 
 .li-hover:hover {
-  background-color: #d8d8d8;
-  columns: #fff;
+  background-color: #ffea61;
+  columns: #000105;
 }
 
 .li-selected {
-  color: #fff;
-  background-color: #000925;
+  color: #000105;
+  background-color: #fefd93;
 }
 
 .container {
@@ -65,7 +65,7 @@ li {
 }
 
 .quiz-container {
-  background-color: #f8f8f8;
+  background-color: #3b2a77;
   padding: 1rem;
   margin-top: 2rem;
   border-radius: 4px;
