@@ -1,0 +1,157 @@
+export const quiz = {
+  totalQuestions: 5,
+  questions: [
+    {
+        id: 1,
+        question: 'What does HTML stand for?',
+        answers: ['Hypertext Markup Language', 'Hyperlink and Text Markup Language', 'High-Level Text Markup Language', 'Hypertext and Text Markup Language'],
+        correctAnswer: 'Hypertext Markup Language',
+    },
+    {
+        id: 2,
+        question: 'Which programming language is commonly used for front-end web development?',
+        answers: ['Java', 'Python', 'JavaScript', 'Ruby'],
+        correctAnswer: 'JavaScript',
+    },
+    {
+        id: 3,
+        question: 'What is the purpose of CSS in web development?',
+        answers: ['Creating Databases', 'Styling HTML Elements', 'Server-Side Scripting', 'Handling User Authentication'],
+        correctAnswer: 'Styling HTML Elements',
+    },
+    {
+        id: 4,
+        question: 'What does API stand for in the context of web development?',
+        answers: ['Application Programming Interface', 'Advanced Programming Interface', 'Automated Processing Interface', 'Application Process Interface'],
+        correctAnswer: 'Application Programming Interface',
+    },
+    {
+        id: 5,
+        question: 'Which version control system is widely used in web development for source code management?',
+        answers: ['SVN', 'Git', 'Mercurial', 'CVS'],
+        correctAnswer: 'Git',
+    },
+
+    {
+        id: 6,
+        question: 'What is React?',
+        answers: ['A JavaScript framework', 'A JavaScript library', 'A server-side language', 'A database management system'],
+        correctAnswer: 'A JavaScript library',
+    },
+    {
+        id: 7,
+        question: 'What is JSX in React?',
+        answers: ['A JavaScript extension for XML', 'A JSON syntax extension', 'A build tool for React', 'A styling language for React'],
+        correctAnswer: 'A JavaScript extension for XML',
+    },
+    {
+        id: 8,
+        question: 'Explain the concept of Virtual DOM in React.',
+        answers: ['A lightweight version of the actual DOM', 'A browser-specific implementation of the DOM', 'An alternative to HTML', 'A database for React components'],
+        correctAnswer: 'A lightweight version of the actual DOM',
+    },
+    {
+        id: 9,
+        question: 'What are the key features of React?',
+        answers: ['Bidirectional data flow', 'Virtual DOM', 'Two-way data binding', 'Only functional components'],
+        correctAnswer: 'Virtual DOM',
+    },
+    {
+        id: 10,
+        question: 'What are React components?',
+        answers: ['Styling elements in React', 'Reusable building blocks for UI', 'Data structures in React', 'Server-side scripts in React'],
+        correctAnswer: 'Reusable building blocks for UI',
+    },
+    {
+        id: 11,
+        question: 'What is the significance of state in React?',
+        answers: ['It determines the style of components', 'It represents the current state of a component', 'It controls the flow of data', 'It manages server-side state'],
+        correctAnswer: 'It represents the current state of a component',
+    },
+    {
+        id: 12,
+        question: 'How does data flow in a React application?',
+        answers: ['Bidirectionally between components', 'Unidirectionally from child to parent components', 'Randomly between components', 'Only in class components'],
+        correctAnswer: 'Unidirectionally from child to parent components',
+    },
+    {
+        id: 13,
+        question: 'What is the purpose of the `setState` method?',
+        answers: ['To set the initial state of a component', 'To update the state of a component', 'To render a component', 'To define props for a component'],
+        correctAnswer: 'To update the state of a component',
+    },
+    {
+        id: 14,
+        question: 'What is the difference between controlled and uncontrolled components in React?',
+        answers: ['Controlled components use the Virtual DOM', 'Controlled components have no state', 'Uncontrolled components store state in the DOM', 'Uncontrolled components use JSX'],
+        correctAnswer: 'Controlled components use the Virtual DOM',
+    },
+    {
+        id: 15,
+        question: 'Explain the concept of props in React.',
+        answers: ['They define styling for components', 'They are used for routing in React', 'They are passed from parent to child components', 'They are internal state variables in components'],
+        correctAnswer: 'They are passed from parent to child components',
+    },
+    {
+        id: 16,
+        question: 'What is the purpose of the `useEffect` hook in React?',
+        answers: ['To handle user input events', 'To manage component state', 'To manage side effects in functional components', 'To define lifecycle methods in class components'],
+        correctAnswer: 'To manage side effects in functional components',
+    },
+    {
+        id: 17,
+        question: 'What is the significance of keys in React lists?',
+        answers: ['They define the order of elements in a list', 'They help React optimize rendering in lists', 'They control access to state in a list', 'They are used for encryption in React'],
+        correctAnswer: 'They help React optimize rendering in lists',
+    },
+    {
+        id: 18,
+        question: 'What is Redux, and how does it work with React?',
+        answers: ['A styling library for React', 'A state management library', 'A routing library for React', 'An animation library for React'],
+        correctAnswer: 'A state management library',
+    },
+    {
+        id: 19,
+        question: 'Explain the concept of React Router.',
+        answers: ['A component for rendering images in React', 'A library for handling navigation in React applications', 'A tool for optimizing React performance', 'A utility for managing React state'],
+        correctAnswer: 'A library for handling navigation in React applications',
+    },
+    {
+        id: 20,
+        question: 'How can you optimize the performance of a React application?',
+        answers: ['By using inline styles', 'By avoiding the use of state', 'By using memoization and lazy loading', 'By using only class components'],
+        correctAnswer: 'By using memoization and lazy loading',
+    },
+    {
+        id: 21,
+        question: 'What is the purpose of the React Context API?',
+        answers: ['To handle routing in React', 'To manage state globally in a React application', 'To define component structure', 'To handle user authentication in React'],
+        correctAnswer: 'To manage state globally in a React application',
+    },
+    {
+        id: 22,
+        question: 'What is the significance of the `shouldComponentUpdate` method?',
+        answers: ['To update the component state', 'To determine whether a component should re-render', 'To handle asynchronous code in React', 'To define component props'],
+        correctAnswer: 'To determine whether a component should re-render',
+    },
+    {
+        id: 23,
+        question: 'Explain the concept of React Hooks.',
+        answers: ['Functions that allow you to use state and lifecycle features in functional components', 'External libraries for React', 'Deprecated features in React', 'A tool for testing React applications'],
+        correctAnswer: 'Functions that allow you to use state and lifecycle features in functional components',
+    },
+    {
+        id: 24,
+        question: 'What is the purpose of the `React.Fragment` component?',
+        answers: ['To create fragments of HTML code', 'To define conditional rendering in React', 'To import external components in React', 'To wrap multiple elements without adding extra nodes to the DOM'],
+        correctAnswer: 'To wrap multiple elements without adding extra nodes to the DOM',
+    },
+    {
+        id: 25,
+        question: 'What is the role of the `key` attribute in React lists?',
+        answers: ['To define styling for list elements', 'To uniquely identify elements and optimize list rendering', 'To determine the order of elements in a list', 'To define a unique identifier for a React component'],
+        correctAnswer: 'To uniquely identify elements and optimize list rendering',
+    },
+  
+  ],
+};
